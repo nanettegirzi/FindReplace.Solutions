@@ -23,22 +23,22 @@ The webpage exhibits the following behaviors:
 Simple find and replace web application where a user will enter a word or phrase, and the word "world" will be replaced with the word "universe".
 
 * Input Example
-* "world"
+  * "world"
 
 * Output Example
-* "universe"
+  * "universe"
 
 * Input Example
-* "hello world"
+  * "hello world"
 
 * Output Example
-* "hello universe"
+  * "hello universe"
 
 * Input Example (user enters lower and upper case)
-* "HelLo woRlD"
+  * "HelLo woRlD"
 
 * Output Example
-* "hello universe"
+  * "hello universe"
 
 
 ## Known Bugs
