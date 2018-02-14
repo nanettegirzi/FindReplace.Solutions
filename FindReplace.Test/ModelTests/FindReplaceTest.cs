@@ -9,10 +9,12 @@ namespace FindReplace.Tests
     public class FindAndReplaceTest
     {
         [TestMethod]
-        public void IsUserInput_FindAndReplace_worldTouniverse()
+        public void IsUserInput_FindAndReplace1word_worldTouniverse()
         {
-            FindAndReplace testFindAndReplace = new FindAndReplace("world");
-            Assert.AreEqual("universe", testFindAndReplace.ReplaceWords());
+            FindAndReplace testFindAndReplace = new FindAndReplace("Hello world, how are you doing? I love you world.", "world", "universe");
+            string replacedWords = testFindAndReplace.ReplaceWords();
+            Console.WriteLine(replacedWords);
+            Assert.AreEqual("Hello universe, how are you doing? I love you universe.", replacedWords);
         }
     }
 }
