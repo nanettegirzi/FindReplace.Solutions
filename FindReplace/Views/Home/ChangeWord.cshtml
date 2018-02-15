@@ -1,0 +1,12 @@
+@{
+  Layout="_Layout";
+}
+
+	<p>Phrase: @Model.GetUserSentence()</p>
+	<p>Replace this Word: @Model.GetReplaceThis()</p>
+	<p>Word to replace with: @Model.GetUserWord()</p>
+    <hr>
+    <br>
+    <h4>New Phrase with replaces words<h4>
+    <p>@Model.ReplaceWords()</p>
+	<a href="/"><button class="btn btn-info" type="button" name="back-button">Try Again</button></a>
